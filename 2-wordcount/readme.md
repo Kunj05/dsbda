@@ -31,7 +31,7 @@
 ### Upload Data to HDFS
 ```bash
 # Upload input file to HDFS
-hadoop jar <filename> <input-path in hdfs>
+hadoop fs -put <filename> <input-path in hdfs>
 hadoop fs -put wordcount.txt wordcountfile
 
 # Verify the file upload
